@@ -1,0 +1,53 @@
+
+.menPan{
+    -fx-background-color: rgba(242, 234, 245), linear-gradient(to top, #eeeeee, rgb(242, 234, 245));
+
+}
+.btn{
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: none;
+    -fx-background-radius: 10px;
+}
+#menBtn {
+-fx-background-image: url("image/menu.png");
+}
+#menBtn:hover{
+-fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#secBox{
+    -fx-background-color: rgb(208, 208, 208);
+    -fx-text-fill: #d32de5;
+    -fx-font-size: 1.3em;
+}
+#secBox:hover{
+    -fx-background-color: rgb(240, 240, 240);
+}
+#secBox:focused{
+    -fx-background-color: rgb(255, 255, 255);
+}
+#seBtn{
+   -fx-background-image: url("image/search.png");
+}
+#mmBtn{
+    -fx-background-position: left;
+    -fx-background-image: url("image/musical.png");
+}
+#mmBtn:hover{
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#rpBtn{
+    -fx-background-position: left;
+    -fx-background-image: url("image/recent.png");
+}
+#rpBtn:hover{
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#plBtn{
+    -fx-background-position: left;
+    -fx-background-image: url("image/playlist.png");
+}
+#plBtn:hover{
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
