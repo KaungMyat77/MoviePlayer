@@ -1,7 +1,7 @@
 
 .menPan{
     -fx-background-color: rgba(242, 234, 245), linear-gradient(to top, #eeeeee, rgb(242, 234, 245));
-    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
+    -fx-effect: dropshadow(three-pass-box, #949494, 10, 0, 1,0);
 
 }
 .btn{
@@ -38,6 +38,9 @@
 #mmBtn:hover{
     -fx-background-color: rgba(217, 155, 230, 0.29);
 }
+#mmAcPan{
+    -fx-background-color:  #d32de5;
+}
 #rpBtn{
     -fx-background-position: left;
     -fx-background-image: url("image/recent.png");
@@ -51,4 +54,73 @@
 }
 #plBtn:hover{
     -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#accNaT{
+    -fx-background-position: center;
+    -fx-background-size: 30 30;
+    -fx-background-repeat: no-repeat;
+    -fx-background-image: url("image/account.png");
+}
+#setBtn{
+    -fx-background-position: center;
+    -fx-background-image: url("image/settings.png");
+}
+#setBtn:hover{
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#accPa:hover{
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+.mainPan{
+    -fx-background-color: rgba(242, 234, 245), linear-gradient(to top, #eeeeee, rgb(242, 234, 245));
+}
+#vfPa:hover{
+    -fx-background-radius: 10px;
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#vfLaI{
+    -fx-background-image: url("image/folder.png");
+}
+#rsLaI{
+    -fx-background-image: url("image/pen-drive.png");
+}
+#msLaI{
+    -fx-background-image: url("image/server.png");
+}
+#rsPa:hover{
+    -fx-background-radius: 10px;
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#msPa:hover{
+    -fx-background-radius: 10px;
+    -fx-background-color: rgba(217, 155, 230, 0.29);
+}
+#vfPaAc{
+    -fx-background-color: #d32de5;
+}
+#adFBtn{
+    -fx-text-fill: #f9f9f9;
+    -fx-background-color: #b33ab7,linear-gradient(#b33ab7 50%, #f6cdff 100%),
+    radial-gradient(center 50% -40%, radius 200%, #c34dbd 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
+}
+#adFBtn:hover{
+    -fx-text-fill: #b33ab7;
+    -fx-border-color: #98339f;
+    -fx-border-radius: 8px;
+    -fx-background-insets: 0,1,2;
+    -fx-background-color:
+            #b33ab7,
+            linear-gradient(#e0e0e0 50%, white 100%),
+            radial-gradient(center 50% -40%, radius 200%, #f4f4f4 45%, rgba(230,230,230,0) 50%);
+}
+#adFBtn:pressed{
+    -fx-text-fill: #fff;
+    -fx-background-color: #b33ab7,linear-gradient(#b33ab7 50%, #b33ab7 100%),
+    radial-gradient(center 50% -40%, radius 200%, #9f36ab 45%, rgba(230,230,230,0) 50%);
+    -fx-background-insets: 0,1,1;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, #949494, 5, 0, 0,5);
 }
